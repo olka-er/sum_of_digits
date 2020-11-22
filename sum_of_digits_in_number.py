@@ -16,11 +16,7 @@ def Digits(digits):
         numlist1.append(int(numlist[i]))
         i+=1
 
-    i=0
-    summ=0
-    while i<len(numlist1):
-        summ+=numlist1[i]
-        i+=1
+    summ=sum(numlist1)
 
     return summ
 
